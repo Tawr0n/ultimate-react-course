@@ -1,40 +1,70 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+      "cityName": "Lviv",
+      "country": "Ukraine",
+      "emoji": {
+        "type": "img",
+        "key": null,
+        "ref": null,
+        "props": {
+          "src": "https://flagcdn.com/24x18/ua.png",
+          "alt": "flag"
+        },
+        "_owner": null,
+        "_store": {}
       },
-      "id": 73930385
+      "date": "2024-01-27T19:24:05.665Z",
+      "notes": "My home 😍",
+      "position": {
+        "lat": "49.80254124506294",
+        "lng": "24.114990234375004"
+      },
+      "id": 98443204
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+      "cityName": "Prague",
+      "country": "Czechia",
+      "emoji": {
+        "type": "img",
+        "key": null,
+        "ref": null,
+        "props": {
+          "src": "https://flagcdn.com/24x18/cz.png",
+          "alt": "flag"
+        },
+        "_owner": null,
+        "_store": {}
       },
-      "id": 17806751
+      "date": "2024-01-27T19:46:27.376Z",
+      "notes": "I want to visit!",
+      "position": {
+        "lat": "50.02185841773447",
+        "lng": "14.447021484375002"
+      },
+      "id": 98443205
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": {
+        "type": "img",
+        "key": null,
+        "ref": null,
+        "props": {
+          "src": "https://flagcdn.com/24x18/gb.png",
+          "alt": "flag"
+        },
+        "_owner": null,
+        "_store": {}
       },
-      "id": 98443197
+      "date": "2024-01-27T22:49:34.333Z",
+      "notes": "I really want to be here",
+      "position": {
+        "lat": "51.42661449707482",
+        "lng": "-0.10986328125000001"
+      },
+      "id": 98443206
     }
   ]
 }

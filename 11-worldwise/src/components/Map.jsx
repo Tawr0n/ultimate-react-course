@@ -1,5 +1,5 @@
 import styles from './Map.module.css'
-import {useNavigate, useSearchParams} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import {MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents} from "react-leaflet";
 import {useEffect, useState} from "react";
 import {useCities} from "../contexts/CitiesContext.jsx";
@@ -17,7 +17,7 @@ const Map = () => {
         getPosition
     } = useGeolocation()
 
-    const [mapLat,mapLng] = useUrlPosition()
+    const [mapLat, mapLng] = useUrlPosition()
 
     useEffect(() => {
         if (mapLat && mapLng) setMapPosition([mapLat, mapLng])

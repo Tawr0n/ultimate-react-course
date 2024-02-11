@@ -4,7 +4,7 @@ import Menu, {loader as menuLoader} from "./features/menu/Menu.jsx";
 import Cart from "./features/cart/Cart.jsx";
 import CreateOrder, {createOrderAction} from "./features/order/CreateOrder.jsx";
 import Order, {loader as orderLoader} from "./features/order/Order.jsx";
-import AppLayout from "./AppLayout.jsx";
+import AppLayout from "./ui/AppLayout.jsx";
 import Error from "./ui/Error.jsx";
 
 const router = createBrowserRouter([
